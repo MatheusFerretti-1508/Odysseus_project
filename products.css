@@ -44,45 +44,44 @@ body {
     color: #000;
 }
 
-#slogan {
-    font-size: 100px;
+.container-products {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+#products h2,
+.titles {
+    display: flex;
+    justify-content: center;
+    color:#fff;
+    font-size: 48px;
+    padding: 16px;
+    border-bottom: 1px solid #fff;
+    font-weight: 500;
+    
+}
+
+.col-md-4 img {
+    margin: 0 auto;
+}
+
+.col-md-4 strong {
     color: #fff;
-}
-
-#exp-slogan {
-    font-size: 28px;
-}
-
-#exp-slogan-title{
     font-size: 24px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bolder;
 }
 
-.card {
-    border-radius: 20px;
+.btn-success {
+    width: 240px ;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
-
-#home {
-    margin-bottom: 30px;
-}
-
-
-
-.card {
-    background-color: rgba(255, 255, 255, 0.8);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 641px ) {
     .container {
@@ -100,7 +99,6 @@ body {
         text-align: center;
         margin-bottom: 15px;
     }
-
 }
 
 @media screen and (max-width: 1023px) and (min-width: 642px) {

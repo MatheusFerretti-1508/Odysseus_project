@@ -44,45 +44,38 @@ body {
     color: #000;
 }
 
-#slogan {
-    font-size: 100px;
+.container-contact {
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+label {
+    font-size: 25px;
+}
+
+form button {
+    background-color: #fff;
+    color: #000;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+}
+
+form button:hover {
+    text-decoration: underline;
+}
+
+#text-contact p {
     color: #fff;
-}
-
-#exp-slogan {
-    font-size: 28px;
-}
-
-#exp-slogan-title{
     font-size: 24px;
+    font-weight: 500 ;
 }
 
-.card {
-    border-radius: 20px;
+#text-contact h2 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 550;
 }
-
-#home {
-    margin-bottom: 30px;
-}
-
-
-
-.card {
-    background-color: rgba(255, 255, 255, 0.8);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 641px ) {
     .container {
@@ -100,7 +93,6 @@ body {
         text-align: center;
         margin-bottom: 15px;
     }
-
 }
 
 @media screen and (max-width: 1023px) and (min-width: 642px) {

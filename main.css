@@ -108,7 +108,7 @@ body {
     }
     
     .navbar-brand {
-        font-size: 65px;
+        font-size: 40px;
         font-weight: bold;
     }
     
@@ -139,6 +139,7 @@ body {
         border: none;
         border-radius: 8px;
         outline: none;
+        margin: 0 auto;
     }
 
 }

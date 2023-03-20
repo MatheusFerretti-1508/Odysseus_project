@@ -100,7 +100,60 @@ body {
         margin-bottom: 15px;
     }
 
+    body {
+        background-image: url(./images/hd-wallpaper-2695569.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-x: hidden;
+        font-family: 'Space Mono', monospace;
+        height: 100vh;
+    }
+
+    .navbar-brand {
+        font-size: 42px;
+    }
     
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.5);
+        font-family: 'Space Mono', monospace;
+        margin-bottom: 48px;
+    }
+    
+    .navbar-brand {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    .navbar-brand,
+    .nav-link,
+    .navbar-brand:hover,
+    .text-color {
+        color: #fff;
+    }
+    
+    .nav-link:hover {
+        text-decoration: underline;
+        color: #fff;
+    }
+    
+    .nav .nav-link.active {
+        background-color: #fff;
+        color: #000;
+    }
+
+    .navbar-toggler-icon {
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        padding: 18px;
+        border: none;
+        border-radius: 8px;
+        outline: none;
+        margin: 0 auto;
+    }
+
 }
 
 @media screen and (max-width: 1023px) and (min-width: 642px) {

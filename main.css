@@ -101,6 +101,14 @@ body {
         margin-bottom: 15px;
     }
 
+    body {
+        background-image: url(./images/hd-wallpaper-2695569.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-x: hidden;
+        font-family: 'Space Mono', monospace;
+    }
+
 }
 
 @media screen and (max-width: 1023px) and (min-width: 642px) {

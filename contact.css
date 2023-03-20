@@ -77,6 +77,18 @@ form button:hover {
     font-weight: 550;
 }
 
+#products h2,
+.titles {
+    display: flex;
+    justify-content: center;
+    color:#fff;
+    font-size: 48px;
+    padding: 16px;
+    border-bottom: 1px solid #fff;
+    font-weight: 500;
+    
+}
+
 @media screen and (max-width: 641px ) {
     .container {
         width: 90%;

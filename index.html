@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <title>Home Page</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0">Odysseus</h1>
+            <nav class="navbar-collapse collapse justify-content-end">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contatc">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 g-0">
+                        <h2 id="slogan">Home is everywhere</h2>
+                    </div>
+                    <div class="col-md-4 g-0">
+                        <div class="card">
+                            <div class="card-header d-flex justify-content-center">
+                                <h3 id="exp-slogan">Travel and conquer</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h4 id="exp-slogan-title">Why?</h4>
+                                </div>
+                                <div class="card-text">
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi tenetur temporibus molestiae quibusdam, animi hic quisquam illo quo facilis dicta fugiat autem? Et, fuga ratione? Eveniet totam molestiae est aliquam?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="products">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="container-products">
+                            <h2>Our products</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 d-grid produ">
+                        <img src="https://via.placeholder.com/240x240">
+                        <strong>U$ 120,00</strong>
+                        <button class="btn btn-success">Buy</button>
+                    </div>
+                    <div class="col-md-4 d-grid produ">
+                        <img src="https://via.placeholder.com/240x240">
+                        <strong>U$ 120,00</strong>
+                        <button class="btn btn-success">Buy</button>
+                    </div>
+                    <div class="col-md-4 d-grid produ">
+                        <img src="https://via.placeholder.com/240x240">
+                        <strong>U$ 120,00</strong>
+                        <button class="btn btn-success">Buy</button>
+                    </div>
+                    <div class="col-md-4 d-grid produ">
+                        <img src="https://via.placeholder.com/240x240">
+                        <strong>U$ 120,00</strong>
+                        <button class="btn btn-success">Buy</button>
+                    </div>
+                    <div class="col-md-4 d-grid produ">
+                        <img src="https://via.placeholder.com/240x240">
+                        <strong>U$ 120,00</strong>
+                        <button class="btn btn-success">Buy</button>
+                    </div>
+                    <div class="col-md-4 d-grid produ">
+                        <img src="https://via.placeholder.com/240x240">
+                        <strong>U$ 120,00</strong>
+                        <button class="btn btn-success">Buy</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contatc">
+            <div class="container">
+                <div class="row">
+                    <div class="container-contact">
+                        <h2 class="text-center titles">Contact us</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <section id="text-contact">
+                            <h2>Come and schedule your travel</h2>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt cupiditate mollitia ducimus deleniti veniam, officia neque, suscipit nemo minima impedit repellendus aspernatur assumenda omnis saepe nostrum earum molestias odio id!
+                            </p>
+                        </section>
+                    </div>
+                    <div class="col-md-6">
+                        <form>
+                        <label class="form-label text-color" for="name">Your name:</label>
+                        <input class="form-control" type="text" id="name" required placeholder="Your full name">
+                        <label class="form-label text-color" for="email">Your E-mail:</label>
+                        <input class="form-control" type="email" id="email" required placeholder="youremail@email.com">
+                        <label class="form-label text-color" for="msg">Your message:</label>
+                        <textarea class="form-control" id="msg" required placeholder="Your message to us"></textarea>
+                        <button type="button" class="mt-4">Send message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -8,6 +8,7 @@ body {
     background-image: url(./images/hd-wallpaper-2695569.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     overflow-x: hidden;
     font-family: 'Space Mono', monospace;
 }

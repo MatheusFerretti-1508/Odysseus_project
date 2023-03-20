@@ -93,7 +93,7 @@ body {
 }
 
 .col-md-4 strong {
-    color: rgb(0, 0, 0);
+    color: #fff;
     font-size: 24px;
     display: flex;
     justify-content: center;

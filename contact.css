@@ -112,7 +112,6 @@ form button:hover {
         background-size: cover;
         overflow-x: hidden;
         font-family: 'Space Mono', monospace;
-        height: 100vh;
     }
 
     .navbar-brand {
